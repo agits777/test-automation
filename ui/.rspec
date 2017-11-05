@@ -1,0 +1,5 @@
+--color
+--tty
+--require 'spec_helper'
+--format RspecJunitFormatter
+--out report/junit-results/rspec<%= '_' + rand(36**10).to_s(36) %>.xml
